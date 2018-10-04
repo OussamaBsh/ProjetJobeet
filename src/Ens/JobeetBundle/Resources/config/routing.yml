@@ -1,0 +1,25 @@
+ens_jobeet_ens_job:
+    resource: "@EnsJobeetBundle/Resources/config/routing/job.yml"
+    prefix:   /ens_job
+
+ens_jobeet_homepage:
+    path:     /
+    defaults: { _controller: EnsJobeetBundle:Default:index }
+#varviableAdvert:
+#    path:     /view
+#    defaults: { _controller: EnsJobeetBundle:Default:view }
+#
+#varviableAdvert2:
+#    path:     /view2
+#    defaults: { _controller: EnsJobeetBundle:Default:view2 }
+#varviableAdvert3:
+#    path:     /view3
+#    defaults: { _controller: EnsJobeetBundle:Default:view3 }
+
+EnsJobeetBundle_job:
+    resource: "@EnsJobeetBundle/Resources/config/routing/job.yml"
+    prefix: /job
+#
+#EnsJobeetBundle_homepage:
+#    pattern:  /hello/{name}
+#    defaults: { _controller: EnsJobeetBundle:Default:index }
